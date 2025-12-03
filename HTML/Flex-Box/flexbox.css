@@ -100,5 +100,70 @@ h1{
 
 .wrap{
     padding: 20px;
+    margin: 5px;
+    border: 1px solid black;
+    background-color: rgb(152, 218, 218)    ;
+}
 
+.flexContainer10{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.order:nth-child(1){
+    padding: 20px;
+    margin: 5px;
+    background-color: rgb(152, 218, 218);
+    border: 1px solid black;
+}
+
+.order:nth-child(2){
+    padding: 20px;
+    margin: 5px;
+    background-color: rgb(152, 218, 218);
+    border: 1px solid black;
+    order: 1;
+}
+
+.order:nth-child(3){
+    padding: 20px;
+    margin: 5px;
+    background-color: rgb(152, 218, 218);
+    border: 1px solid black;
+    order: 2;
+}
+.flexContainer11{
+    border: 1px solid black;
+    display: flex;
+}
+
+.alignself:nth-child(1){
+    display: flex;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid black;
+    background-color: rgb(152, 218, 218);
+    align-self: flex-start;
+    justify-items: flex-start;
+}
+
+.alignself:nth-child(2){
+    display: flex;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid black;
+    background-color: rgb(152, 218, 218);
+    align-self: center;
+    justify-items: center;
+}
+
+.alignself:nth-child(3){
+    display: flex;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid black;
+    background-color: rgb(152, 218, 218);
+    align-self: flex-end;
+    justify-items: flex-end;
 }
