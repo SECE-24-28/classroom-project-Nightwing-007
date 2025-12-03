@@ -1,0 +1,104 @@
+h1{
+    text-align: center;
+}
+
+.flexContainer1{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    align-contents: space-evenly;
+}
+
+.item{
+    margin: 10px;
+    display: flex;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgb(152, 218, 218);
+}
+
+.flexContainer2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-content: space-evenly;
+}
+
+.column{
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    border: 1px solid black;
+    background-color: rgb(152, 218, 218);
+    justify-content: center;
+}
+
+.flexContainer31{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.just{
+    padding: 20px;
+    margin: 5px;
+    background-color: rgb(152, 218, 218);
+    border: 1px solid black;
+}
+
+.flexContainer32{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.start{
+    padding: 20px;
+    margin: 5px;
+    background-color: rgb(152, 218, 218);
+    border: 1px solid black;
+
+}
+
+.flexContainer4{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.top{
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid black;
+    background-color: rgb(152, 218, 218);
+    align-self: flex-start;
+}
+
+.tail{
+    padding: 20px 10px;
+    margin: 5px;
+    border: 1px solid black;
+    background-color: rgb(152, 218, 218);
+    align-self: flex-start;
+}
+
+.short{
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid black;
+    background-color: rgb(152, 218, 218);
+    align-self: flex-end;
+}
+
+.flexContainer5{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.wrap{
+    padding: 20px;
+
+}
