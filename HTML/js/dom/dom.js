@@ -1,4 +1,5 @@
-/*//1. Tag Selector
+/*
+/!*!//1. Tag Selector
 let heading1 = document.getElementsByTagName("h1");
 //HTML Collection Array
 console.log(heading1[1]);
@@ -21,9 +22,9 @@ console.log(sel);
 //5. Query Selector All
 let d = document.querySelectorAll("#b");
 //NodeList Array
-console.log(d);*/
+console.log(d);*!/
 
-/*
+/!*
 //Read and Write operation
 let head = document.querySelector("p");
 //Read operation
@@ -33,7 +34,7 @@ console.log(head.textContent);
 head.textContent = "This is the new paragraph content.";
 
 let div = document.querySelector("div");
-div.innerHTML = "<p>Hello from para</p>";*/
+div.innerHTML = "<p>Hello from para</p>";*!/
 
 // add/remove/toggle class
 let head = document.querySelector("h1");
@@ -65,4 +66,20 @@ arr.forEach((el) => {
     ul.appendChild(li);
 });
 
-document.body.appendChild(ul);
+document.body.appendChild(ul);*/
+
+let form = document.querySelector('form');
+form.addEventListener('submit', (e) => {
+    let name = document.querySelectorAll('input')[0];
+    let feedback = document.querySelectorAll('textarea');
+    if(name.value === ""){
+        alert("Name field is required");
+    }
+    if(feedback.value.length < 5){
+        alert("Feedback must be atleast 5 characters long");
+    }
+
+    let result = document.querySelector('#result');
+    result.textContent = `thankyou ${name.value} for your feedback! and feedback is ${feedback.value}`;
+    form.reset();
+});
